@@ -491,6 +491,7 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
 	border-radius: 10px;
 	margin-top:15px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	height: -webkit-fill-available;
 }
 .box_feat h3{
 	color:#FFC;
@@ -1690,3 +1691,12 @@ blockquote.styled{
     transform: perspective(400px);
   }
 }
+
+.row.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  .row.display-flex > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+  }
