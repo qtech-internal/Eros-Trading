@@ -32,6 +32,10 @@ Author URI: http://themeforest.net/user/Ansonika/
 /* 1.  SITE STRUCTURE and TYPOGRAPHY */
 /*============================================================================================*/
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*-------- 1.1 Typography --------*/
 body {background:#fff; font-size:14px; line-height:1.5; font-family:'Roboto', Arial, sans-serif; color:#565a5c;-webkit-font-smoothing: antialiased;}
 
