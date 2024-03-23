@@ -1049,10 +1049,21 @@ ul.list_2 li:before {
   left:0;
   top:0;
 }
+/* headingss css */
+.headingss{
+	text-align: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+/* cards css */
+.cards{
+	text-align: justify;
+}
 
 /* Margin tools */
-.margin_60 {padding-top:60px; padding-bottom:60px;}
-.margin_30 {margin-top:30px; margin-bottom:30px;}
+.margin_60 {padding-top:20px; padding-bottom:10px;}
+.margin_30 {margin-top:10px; margin-bottom:10px;}
 
 /* Bg Content */
 .bg_content{
@@ -1695,6 +1706,8 @@ blockquote.styled{
     transform: perspective(400px);
   }
 }
+/* card section new */
+
 
 .row.display-flex {
 	display: flex;
